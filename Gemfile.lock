@@ -1,0 +1,22 @@
+PATH
+  remote: .
+  specs:
+    snowflake (0.0.1)
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    minitest (5.15.0)
+    rake (10.5.0)
+
+PLATFORMS
+  x86_64-linux
+
+DEPENDENCIES
+  bundler (~> 2.2)
+  minitest (~> 5.0)
+  rake (~> 10.0)
+  snowflake!
+
+BUNDLED WITH
+   2.2.32
