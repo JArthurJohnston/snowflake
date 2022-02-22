@@ -1,4 +1,4 @@
-require_relative './lib/snowflake'
+require_relative '../lib/snowflake'
 
 get('/something')
 def do_something

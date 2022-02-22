@@ -1,0 +1,17 @@
+Style/Documentation:
+  Enabled: false
+  
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Layout/MultilineMethodCallIndentation:
+  EnforcedStyle: indented
+
+Style/OrAssignment:
+  Enabled: false
+
+Style/IfUnlessModifier:
+  Enabled: false
+
+Style/RedundantReturn:
+  Enabled: false

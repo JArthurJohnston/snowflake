@@ -1,0 +1,623 @@
+[ N 2022-02-19 08:49:18.5712 83256/T1 age/Wat/WatchdogMain.cpp:1373 ]: Starting Passenger watchdog...
+[ N 2022-02-19 08:49:18.5861 83259/T1 age/Cor/CoreMain.cpp:1340 ]: Starting Passenger core...
+[ N 2022-02-19 08:49:18.5863 83259/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2022-02-19 08:49:18.6440 83259/T1 age/Cor/CoreMain.cpp:1015 ]: Passenger core online, PID 83259
+2022/02/19 08:49:20 [error] 83281#0: *4 "/home/arthur/Projects/snowflake/public/public/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: _, request: "HEAD / HTTP/1.1", host: "0.0.0.0"
+[ N 2022-02-19 08:49:21.4240 83259/T5 age/Cor/SecurityUpdateChecker.h:519 ]: Security update check: no update found (next check in 24 hours)
+
+[ N 2022-02-19 08:49:24.6208 83259/T8 age/Cor/CoreMain.cpp:671 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2022-02-19 08:49:24.6209 83259/T1 age/Cor/CoreMain.cpp:1246 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2022-02-19 08:49:24.6210 83259/T8 Ser/Server.h:902 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2022-02-19 08:49:24.6210 83259/T8 Ser/Server.h:558 ]: [ServerThr.1] Shutdown finished
+[ N 2022-02-19 08:49:24.6210 83259/Td Ser/Server.h:902 ]: [ServerThr.3] Freed 0 spare client objects
+[ N 2022-02-19 08:49:24.6210 83259/Td Ser/Server.h:558 ]: [ServerThr.3] Shutdown finished
+[ N 2022-02-19 08:49:24.6211 83259/Tn Ser/Server.h:902 ]: [ServerThr.8] Freed 0 spare client objects
+[ N 2022-02-19 08:49:24.6211 83259/Tk Ser/Server.h:902 ]: [ServerThr.7] Freed 0 spare client objects
+[ N 2022-02-19 08:49:24.6211 83259/Tn Ser/Server.h:558 ]: [ServerThr.8] Shutdown finished
+[ N 2022-02-19 08:49:24.6211 83259/Tk Ser/Server.h:558 ]: [ServerThr.7] Shutdown finished
+[ N 2022-02-19 08:49:24.6212 83259/Ti Ser/Server.h:902 ]: [ServerThr.6] Freed 0 spare client objects
+[ N 2022-02-19 08:49:24.6212 83259/Ti Ser/Server.h:558 ]: [ServerThr.6] Shutdown finished
+[ N 2022-02-19 08:49:24.6212 83259/Ta Ser/Server.h:902 ]: [ServerThr.2] Freed 0 spare client objects
+[ N 2022-02-19 08:49:24.6213 83259/Ta Ser/Server.h:558 ]: [ServerThr.2] Shutdown finished
+[ N 2022-02-19 08:49:24.6214 83259/Tp Ser/Server.h:902 ]: [ApiServer] Freed 0 spare client objects
+[ N 2022-02-19 08:49:24.6214 83259/Tp Ser/Server.h:558 ]: [ApiServer] Shutdown finished
+[ N 2022-02-19 08:49:24.6215 83259/Tg Ser/Server.h:902 ]: [ServerThr.5] Freed 0 spare client objects
+[ N 2022-02-19 08:49:24.6216 83259/Tg Ser/Server.h:558 ]: [ServerThr.5] Shutdown finished
+[ N 2022-02-19 08:49:24.6216 83259/Tf Ser/Server.h:902 ]: [ServerThr.4] Freed 0 spare client objects
+[ N 2022-02-19 08:49:24.6216 83259/Tf Ser/Server.h:558 ]: [ServerThr.4] Shutdown finished
+[ N 2022-02-19 08:49:25.6161 83259/T1 age/Cor/CoreMain.cpp:1325 ]: Passenger core shutdown finished
+[ N 2022-02-19 08:52:57.1905 83618/T1 age/Wat/WatchdogMain.cpp:1373 ]: Starting Passenger watchdog...
+[ N 2022-02-19 08:52:57.2037 83621/T1 age/Cor/CoreMain.cpp:1340 ]: Starting Passenger core...
+[ N 2022-02-19 08:52:57.2038 83621/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2022-02-19 08:52:57.2668 83621/T1 age/Cor/CoreMain.cpp:1015 ]: Passenger core online, PID 83621
+App 83732 output: "Calling {\"REQUEST_URI\"=>\"/\", \"PATH_INFO\"=>\"/\", \"SCRIPT_NAME\"=>\"\", \"QUERY_STRING\"=>\"\", \"REQUEST_METHOD\"=>\"HEAD\", \"SERVER_NAME\"=>\"0.0.0.0\", \"SERVER_PORT\"=>\"80\", \"SERVER_SOFTWARE\"=>\"nginx/1.20.1 Phusion_Passenger/6.0.12\", \"SERVER_PROTOCOL\"=>\"HTTP/1.1\", \"REMOTE_ADDR\"=>\"127.0.0.1\", \"REMOTE_PORT\"=>\"34790\", \"PASSENGER_CONNECT_PASSWORD\"=>\"vix48Udau0JDkFkO\", \"HTTP_USER_AGENT\"=>\"Passenger Prespawn Script\", \"HTTP_HOST\"=>\"0.0.0.0\", \"rack.version\"=>[1, 2], \"rack.input\"=>#<PhusionPassenger::Utils::TeeInput:0x00005571161d5150 @len=0, @socket=#<PhusionPassenger::Utils::UnseekableSocket:0x00005571161d7180 @socket=#<UNIXSocket:fd 9>, @simulate_eof=true>, @bytes_read=0, @tmp=#<StringIO:0x00005571161d4ed0>>, \"rack.errors\"=>#<IO:/tmp/passenger.spawn.XXXX9fvGLO/stdout_and_err>, \"rack.multithread\"=>false, \"rack.multiprocess\"=>true, \"rack.run_once\"=>false, \"rack.url_scheme\"=>\"http\", \"rack.hijack?\"=>true, \"rack.hijack\"=>#<Proc:0x00005571161d4638 /home/arthur/.rbenv/versions/3.0.3/lib/ruby/gems/3.0.0/gems/passenger-6.0.12/src/ruby_supportlib/phusion_passenger/rack/thread_handler_extension.rb:94 (lambda)>, \"HTTP_VERSION\"=>\"HTTP/1.1\"}"
+[ N 2022-02-19 08:53:00.1533 83621/T5 age/Cor/SecurityUpdateChecker.h:519 ]: Security update check: no update found (next check in 24 hours)
+
+[ N 2022-02-19 08:53:36.2042 83621/T8 age/Cor/CoreMain.cpp:671 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2022-02-19 08:53:36.2043 83621/T1 age/Cor/CoreMain.cpp:1246 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2022-02-19 08:53:36.2043 83621/T1 age/Cor/CoreMain.cpp:1147 ]: Checking whether to disconnect long-running connections for process 83732, application /home/arthur/Projects/snowflake/public (development)
+[ N 2022-02-19 08:53:36.2045 83621/T8 Ser/Server.h:902 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2022-02-19 08:53:36.2045 83621/Tn Ser/Server.h:902 ]: [ServerThr.8] Freed 0 spare client objects
+[ N 2022-02-19 08:53:36.2045 83621/Tg Ser/Server.h:902 ]: [ServerThr.5] Freed 0 spare client objects
+[ N 2022-02-19 08:53:36.2045 83621/Ta Ser/Server.h:902 ]: [ServerThr.2] Freed 0 spare client objects
+[ N 2022-02-19 08:53:36.2045 83621/Te Ser/Server.h:902 ]: [ServerThr.4] Freed 0 spare client objects
+[ N 2022-02-19 08:53:36.2045 83621/Tn Ser/Server.h:558 ]: [ServerThr.8] Shutdown finished
+[ N 2022-02-19 08:53:36.2045 83621/T8 Ser/Server.h:558 ]: [ServerThr.1] Shutdown finished
+[ N 2022-02-19 08:53:36.2045 83621/Tg Ser/Server.h:558 ]: [ServerThr.5] Shutdown finished
+[ N 2022-02-19 08:53:36.2045 83621/Ta Ser/Server.h:558 ]: [ServerThr.2] Shutdown finished
+[ N 2022-02-19 08:53:36.2045 83621/Te Ser/Server.h:558 ]: [ServerThr.4] Shutdown finished
+[ N 2022-02-19 08:53:36.2046 83621/Tk Ser/Server.h:902 ]: [ServerThr.7] Freed 0 spare client objects
+[ N 2022-02-19 08:53:36.2046 83621/Tc Ser/Server.h:902 ]: [ServerThr.3] Freed 0 spare client objects
+[ N 2022-02-19 08:53:36.2046 83621/Tk Ser/Server.h:558 ]: [ServerThr.7] Shutdown finished
+[ N 2022-02-19 08:53:36.2046 83621/Tc Ser/Server.h:558 ]: [ServerThr.3] Shutdown finished
+[ N 2022-02-19 08:53:36.2047 83621/To Ser/Server.h:902 ]: [ApiServer] Freed 0 spare client objects
+[ N 2022-02-19 08:53:36.2046 83621/Ti Ser/Server.h:902 ]: [ServerThr.6] Freed 0 spare client objects
+[ N 2022-02-19 08:53:36.2047 83621/To Ser/Server.h:558 ]: [ApiServer] Shutdown finished
+[ N 2022-02-19 08:53:36.2047 83621/Ti Ser/Server.h:558 ]: [ServerThr.6] Shutdown finished
+[ N 2022-02-19 08:53:36.2049 83621/T1 age/Cor/CoreMain.cpp:1147 ]: Checking whether to disconnect long-running connections for process 83732, application /home/arthur/Projects/snowflake/public (development)
+[ N 2022-02-19 08:53:37.3256 83621/T1 age/Cor/CoreMain.cpp:1325 ]: Passenger core shutdown finished
+[ N 2022-02-19 09:49:53.8884 84460/T1 age/Wat/WatchdogMain.cpp:1373 ]: Starting Passenger watchdog...
+[ N 2022-02-19 09:49:53.9019 84463/T1 age/Cor/CoreMain.cpp:1340 ]: Starting Passenger core...
+[ N 2022-02-19 09:49:53.9020 84463/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2022-02-19 09:49:53.9438 84463/T1 age/Cor/CoreMain.cpp:1015 ]: Passenger core online, PID 84463
+App 84573 output: [ 2022-02-19 09:49:56.1987 84573/0x00005616c1208a18(Worker 1) utils.rb ]: *** Exception NameError in Rack application object (undefined local variable or method `_request' for #<SnowflakeApplication:0x00005616c137ce80>
+[ W 2022-02-19 09:49:56.1988 84463/T8 age/Cor/Con/InternalUtils.cpp:96 ]: [Client 1-1] Sending 502 response: application did not send a complete response
+App 84573 output: Did you mean?  request) (process 84573, thread 0x00005616c1208a18(Worker 1)):
+App 84573 output: 	from config.ru:4:in `call'
+App 84573 output: 	from /home/arthur/.rbenv/versions/3.0.3/lib/ruby/gems/3.0.0/gems/passenger-6.0.12/src/ruby_supportlib/phusion_passenger/rack/thread_handler_extension.rb:107:in `process_request'
+App 84573 output: 	from /home/arthur/.rbenv/versions/3.0.3/lib/ruby/gems/3.0.0/gems/passenger-6.0.12/src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:157:in `accept_and_process_next_request'
+App 84573 output: 	from /home/arthur/.rbenv/versions/3.0.3/lib/ruby/gems/3.0.0/gems/passenger-6.0.12/src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:110:in `main_loop'
+App 84573 output: 	from /home/arthur/.rbenv/versions/3.0.3/lib/ruby/gems/3.0.0/gems/passenger-6.0.12/src/ruby_supportlib/phusion_passenger/request_handler.rb:419:in `block (3 levels) in start_threads'
+App 84573 output: 	from /home/arthur/.rbenv/versions/3.0.3/lib/ruby/gems/3.0.0/gems/passenger-6.0.12/src/ruby_supportlib/phusion_passenger/utils.rb:113:in `block in create_thread_and_abort_on_exception'
+[ N 2022-02-19 09:49:57.0085 84463/T5 age/Cor/SecurityUpdateChecker.h:519 ]: Security update check: no update found (next check in 24 hours)
+
+[ N 2022-02-19 09:50:48.5079 84463/T8 age/Cor/CoreMain.cpp:671 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2022-02-19 09:50:48.5080 84463/T1 age/Cor/CoreMain.cpp:1246 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2022-02-19 09:50:48.5082 84463/T1 age/Cor/CoreMain.cpp:1147 ]: Checking whether to disconnect long-running connections for process 84573, application /home/arthur/Projects/snowflake/public (development)
+[ N 2022-02-19 09:50:48.5086 84463/T8 Ser/Server.h:902 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2022-02-19 09:50:48.5086 84463/Td Ser/Server.h:902 ]: [ServerThr.3] Freed 0 spare client objects
+[ N 2022-02-19 09:50:48.5086 84463/Tb Ser/Server.h:902 ]: [ServerThr.2] Freed 0 spare client objects
+[ N 2022-02-19 09:50:48.5086 84463/Td Ser/Server.h:558 ]: [ServerThr.3] Shutdown finished
+[ N 2022-02-19 09:50:48.5087 84463/T8 Ser/Server.h:558 ]: [ServerThr.1] Shutdown finished
+[ N 2022-02-19 09:50:48.5087 84463/Tb Ser/Server.h:558 ]: [ServerThr.2] Shutdown finished
+[ N 2022-02-19 09:50:48.5088 84463/Tf Ser/Server.h:902 ]: [ServerThr.4] Freed 0 spare client objects
+[ N 2022-02-19 09:50:48.5088 84463/Tg Ser/Server.h:902 ]: [ServerThr.5] Freed 0 spare client objects
+[ N 2022-02-19 09:50:48.5088 84463/Ti Ser/Server.h:902 ]: [ServerThr.6] Freed 0 spare client objects
+[ N 2022-02-19 09:50:48.5088 84463/Tk Ser/Server.h:902 ]: [ServerThr.7] Freed 0 spare client objects
+[ N 2022-02-19 09:50:48.5089 84463/Tf Ser/Server.h:558 ]: [ServerThr.4] Shutdown finished
+[ N 2022-02-19 09:50:48.5089 84463/Tg Ser/Server.h:558 ]: [ServerThr.5] Shutdown finished
+[ N 2022-02-19 09:50:48.5089 84463/Ti Ser/Server.h:558 ]: [ServerThr.6] Shutdown finished
+[ N 2022-02-19 09:50:48.5090 84463/Tk Ser/Server.h:558 ]: [ServerThr.7] Shutdown finished
+[ N 2022-02-19 09:50:48.5091 84463/Tm Ser/Server.h:902 ]: [ServerThr.8] Freed 0 spare client objects
+[ N 2022-02-19 09:50:48.5092 84463/Tm Ser/Server.h:558 ]: [ServerThr.8] Shutdown finished
+[ N 2022-02-19 09:50:48.5093 84463/To Ser/Server.h:902 ]: [ApiServer] Freed 0 spare client objects
+[ N 2022-02-19 09:50:48.5093 84463/To Ser/Server.h:558 ]: [ApiServer] Shutdown finished
+[ N 2022-02-19 09:50:48.5096 84463/T1 age/Cor/CoreMain.cpp:1147 ]: Checking whether to disconnect long-running connections for process 84573, application /home/arthur/Projects/snowflake/public (development)
+[ N 2022-02-19 09:50:49.7285 84734/T1 age/Wat/WatchdogMain.cpp:1373 ]: Starting Passenger watchdog...
+[ N 2022-02-19 09:50:49.7424 84737/T1 age/Cor/CoreMain.cpp:1340 ]: Starting Passenger core...
+[ N 2022-02-19 09:50:49.7425 84737/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2022-02-19 09:50:49.7845 84737/T1 age/Cor/CoreMain.cpp:1015 ]: Passenger core online, PID 84737
+[ N 2022-02-19 09:50:49.9461 84463/T1 age/Cor/CoreMain.cpp:1325 ]: Passenger core shutdown finished
+App 84850 output: "Calling #<Rack::Request:0x00005653e04bf688>"
+[ N 2022-02-19 09:50:52.7149 84737/T5 age/Cor/SecurityUpdateChecker.h:519 ]: Security update check: no update found (next check in 24 hours)
+App 84850 output: "Calling #<Rack::Request:0x00005653e048dea8>"
+App 84850 output: "Calling #<Rack::Request:0x00005653e04526a0>"
+
+[ N 2022-02-19 09:56:15.4135 84737/T8 age/Cor/CoreMain.cpp:671 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2022-02-19 09:56:15.4136 84737/T1 age/Cor/CoreMain.cpp:1246 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2022-02-19 09:56:15.4136 84737/T1 age/Cor/CoreMain.cpp:1147 ]: Checking whether to disconnect long-running connections for process 84850, application /home/arthur/Projects/snowflake/public (development)
+[ N 2022-02-19 09:56:15.4138 84737/Ta Ser/Server.h:902 ]: [ServerThr.2] Freed 0 spare client objects
+[ N 2022-02-19 09:56:15.4138 84737/Td Ser/Server.h:902 ]: [ServerThr.3] Freed 0 spare client objects
+[ N 2022-02-19 09:56:15.4138 84737/Tf Ser/Server.h:902 ]: [ServerThr.4] Freed 0 spare client objects
+[ N 2022-02-19 09:56:15.4138 84737/Th Ser/Server.h:902 ]: [ServerThr.5] Freed 0 spare client objects
+[ N 2022-02-19 09:56:15.4138 84737/Ta Ser/Server.h:558 ]: [ServerThr.2] Shutdown finished
+[ N 2022-02-19 09:56:15.4138 84737/T8 Ser/Server.h:902 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2022-02-19 09:56:15.4138 84737/Tm Ser/Server.h:902 ]: [ServerThr.8] Freed 0 spare client objects
+[ N 2022-02-19 09:56:15.4138 84737/Tf Ser/Server.h:558 ]: [ServerThr.4] Shutdown finished
+[ N 2022-02-19 09:56:15.4138 84737/Td Ser/Server.h:558 ]: [ServerThr.3] Shutdown finished
+[ N 2022-02-19 09:56:15.4138 84737/Th Ser/Server.h:558 ]: [ServerThr.5] Shutdown finished
+[ N 2022-02-19 09:56:15.4139 84737/T8 Ser/Server.h:558 ]: [ServerThr.1] Shutdown finished
+[ N 2022-02-19 09:56:15.4139 84737/Tm Ser/Server.h:558 ]: [ServerThr.8] Shutdown finished
+[ N 2022-02-19 09:56:15.4139 84737/Tj Ser/Server.h:902 ]: [ServerThr.6] Freed 0 spare client objects
+[ N 2022-02-19 09:56:15.4139 84737/Tj Ser/Server.h:558 ]: [ServerThr.6] Shutdown finished
+[ N 2022-02-19 09:56:15.4139 84737/Tk Ser/Server.h:902 ]: [ServerThr.7] Freed 0 spare client objects
+[ N 2022-02-19 09:56:15.4139 84737/Tk Ser/Server.h:558 ]: [ServerThr.7] Shutdown finished
+[ N 2022-02-19 09:56:15.4139 84737/To Ser/Server.h:902 ]: [ApiServer] Freed 0 spare client objects
+[ N 2022-02-19 09:56:15.4139 84737/To Ser/Server.h:558 ]: [ApiServer] Shutdown finished
+[ N 2022-02-19 09:56:15.4141 84737/T1 age/Cor/CoreMain.cpp:1147 ]: Checking whether to disconnect long-running connections for process 84850, application /home/arthur/Projects/snowflake/public (development)
+[ N 2022-02-19 09:56:16.2520 85287/T1 age/Wat/WatchdogMain.cpp:1373 ]: Starting Passenger watchdog...
+[ N 2022-02-19 09:56:16.2661 85290/T1 age/Cor/CoreMain.cpp:1340 ]: Starting Passenger core...
+[ N 2022-02-19 09:56:16.2662 85290/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2022-02-19 09:56:16.3228 85290/T1 age/Cor/CoreMain.cpp:1015 ]: Passenger core online, PID 85290
+[ N 2022-02-19 09:56:16.6054 84737/T1 age/Cor/CoreMain.cpp:1325 ]: Passenger core shutdown finished
+App 85398 output: "Calling {}"
+[ N 2022-02-19 09:56:19.1698 85290/T5 age/Cor/SecurityUpdateChecker.h:519 ]: Security update check: no update found (next check in 24 hours)
+App 85398 output: "Calling {}"
+App 85398 output: "Calling {}"
+App 85398 output: "Calling {}"
+App 85398 output: "Calling {}"
+App 85398 output: "Calling {}"
+
+[ N 2022-02-19 10:11:31.3646 85290/T9 age/Cor/CoreMain.cpp:671 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2022-02-19 10:11:31.3646 85290/T1 age/Cor/CoreMain.cpp:1246 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2022-02-19 10:11:31.3647 85290/T1 age/Cor/CoreMain.cpp:1147 ]: Checking whether to disconnect long-running connections for process 85398, application /home/arthur/Projects/snowflake/public (development)
+[ N 2022-02-19 10:11:31.3648 85290/T9 Ser/Server.h:902 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2022-02-19 10:11:31.3648 85290/Ta Ser/Server.h:902 ]: [ServerThr.2] Freed 0 spare client objects
+[ N 2022-02-19 10:11:31.3648 85290/Tc Ser/Server.h:902 ]: [ServerThr.3] Freed 0 spare client objects
+[ N 2022-02-19 10:11:31.3648 85290/Te Ser/Server.h:902 ]: [ServerThr.4] Freed 0 spare client objects
+[ N 2022-02-19 10:11:31.3648 85290/Tg Ser/Server.h:902 ]: [ServerThr.5] Freed 0 spare client objects
+[ N 2022-02-19 10:11:31.3649 85290/T9 Ser/Server.h:558 ]: [ServerThr.1] Shutdown finished
+[ N 2022-02-19 10:11:31.3649 85290/Ta Ser/Server.h:558 ]: [ServerThr.2] Shutdown finished
+[ N 2022-02-19 10:11:31.3649 85290/Tc Ser/Server.h:558 ]: [ServerThr.3] Shutdown finished
+[ N 2022-02-19 10:11:31.3649 85290/Te Ser/Server.h:558 ]: [ServerThr.4] Shutdown finished
+[ N 2022-02-19 10:11:31.3649 85290/Tg Ser/Server.h:558 ]: [ServerThr.5] Shutdown finished
+[ N 2022-02-19 10:11:31.3649 85290/Ti Ser/Server.h:902 ]: [ServerThr.6] Freed 0 spare client objects
+[ N 2022-02-19 10:11:31.3649 85290/Tm Ser/Server.h:902 ]: [ServerThr.8] Freed 0 spare client objects
+[ N 2022-02-19 10:11:31.3649 85290/Tk Ser/Server.h:902 ]: [ServerThr.7] Freed 0 spare client objects
+[ N 2022-02-19 10:11:31.3649 85290/Tm Ser/Server.h:558 ]: [ServerThr.8] Shutdown finished
+[ N 2022-02-19 10:11:31.3650 85290/Tk Ser/Server.h:558 ]: [ServerThr.7] Shutdown finished
+[ N 2022-02-19 10:11:31.3650 85290/Ti Ser/Server.h:558 ]: [ServerThr.6] Shutdown finished
+[ N 2022-02-19 10:11:31.3650 85290/Tp Ser/Server.h:902 ]: [ApiServer] Freed 0 spare client objects
+[ N 2022-02-19 10:11:31.3650 85290/Tp Ser/Server.h:558 ]: [ApiServer] Shutdown finished
+[ N 2022-02-19 10:11:31.3652 85290/T1 age/Cor/CoreMain.cpp:1147 ]: Checking whether to disconnect long-running connections for process 85398, application /home/arthur/Projects/snowflake/public (development)
+[ N 2022-02-19 10:11:32.2401 87606/T1 age/Wat/WatchdogMain.cpp:1373 ]: Starting Passenger watchdog...
+[ N 2022-02-19 10:11:32.2536 87609/T1 age/Cor/CoreMain.cpp:1340 ]: Starting Passenger core...
+[ N 2022-02-19 10:11:32.2537 87609/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2022-02-19 10:11:32.3115 87609/T1 age/Cor/CoreMain.cpp:1015 ]: Passenger core online, PID 87609
+[ N 2022-02-19 10:11:32.4939 85290/T1 age/Cor/CoreMain.cpp:1325 ]: Passenger core shutdown finished
+App 87722 output: "Calling [:params, :update_param, :delete_param, :path, :host, :fullpath, :[], :[]=, :GET, :ip, :session, :logger, :values_at, :script_name, :script_name=, :path_info=, :user_agent, :multithread?, :referer, :referrer, :POST, :session_options, :delete?, :get?, :head?, :request_method, :options?, :path_info, :query_string, :link?, :patch?, :content_length, :put?, :trace?, :post?, :scheme, :host_authority, :unlink?, :server_authority, :server_name, :authority, :cookies, :server_port, :content_type, :xhr?, :host_with_port, :body, :forwarded_for, :forwarded_port, :forwarded_authority, :ssl?, :url, :hostname, :media_type, :media_type_params, :content_charset, :form_data?, :parseable_data?, :base_url, :accept_encoding, :accept_language, :trusted_proxy?, :port, :each_header, :set_header, :add_header, :env, :delete_header, :has_header?, :get_header, :fetch_header, :taint, :tainted?, :untaint, :untrust, :untrusted?, :trust, :methods, :singleton_methods, :protected_methods, :private_methods, :public_methods, :instance_variables, :instance_variable_get, :instance_variable_set, :instance_variable_defined?, :remove_instance_variable, :instance_of?, :kind_of?, :is_a?, :class, :frozen?, :then, :public_send, :method, :public_method, :singleton_method, :tap, :define_singleton_method, :extend, :clone, :yield_self, :to_enum, :enum_for, :<=>, :===, :=~, :!~, :nil?, :eql?, :respond_to?, :freeze, :inspect, :object_id, :send, :to_s, :display, :hash, :singleton_class, :dup, :itself, :!, :==, :!=, :equal?, :instance_eval, :instance_exec, :__id__, :__send__]"
+[ N 2022-02-19 10:11:35.2655 87609/T5 age/Cor/SecurityUpdateChecker.h:519 ]: Security update check: no update found (next check in 24 hours)
+App 87722 output: "Calling [:params, :update_param, :delete_param, :path, :host, :fullpath, :[], :[]=, :GET, :ip, :session, :logger, :values_at, :script_name, :script_name=, :path_info=, :user_agent, :multithread?, :referer, :referrer, :POST, :session_options, :delete?, :get?, :head?, :request_method, :options?, :path_info, :query_string, :link?, :patch?, :content_length, :put?, :trace?, :post?, :scheme, :host_authority, :unlink?, :server_authority, :server_name, :authority, :cookies, :server_port, :content_type, :xhr?, :host_with_port, :body, :forwarded_for, :forwarded_port, :forwarded_authority, :ssl?, :url, :hostname, :media_type, :media_type_params, :content_charset, :form_data?, :parseable_data?, :base_url, :accept_encoding, :accept_language, :trusted_proxy?, :port, :each_header, :set_header, :add_header, :env, :delete_header, :has_header?, :get_header, :fetch_header, :taint, :tainted?, :untaint, :untrust, :untrusted?, :trust, :methods, :singleton_methods, :protected_methods, :private_methods, :public_methods, :instance_variables, :instance_variable_get, :instance_variable_set, :instance_variable_defined?, :remove_instance_variable, :instance_of?, :kind_of?, :is_a?, :class, :frozen?, :then, :public_send, :method, :public_method, :singleton_method, :tap, :define_singleton_method, :extend, :clone, :yield_self, :to_enum, :enum_for, :<=>, :===, :=~, :!~, :nil?, :eql?, :respond_to?, :freeze, :inspect, :object_id, :send, :to_s, :display, :hash, :singleton_class, :dup, :itself, :!, :==, :!=, :equal?, :instance_eval, :instance_exec, :__id__, :__send__]"
+
+[ N 2022-02-19 10:14:41.7070 87609/T8 age/Cor/CoreMain.cpp:671 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2022-02-19 10:14:41.7071 87609/T1 age/Cor/CoreMain.cpp:1246 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2022-02-19 10:14:41.7072 87609/T1 age/Cor/CoreMain.cpp:1147 ]: Checking whether to disconnect long-running connections for process 87722, application /home/arthur/Projects/snowflake/public (development)
+[ N 2022-02-19 10:14:41.7073 87609/Tc Ser/Server.h:902 ]: [ServerThr.3] Freed 0 spare client objects
+[ N 2022-02-19 10:14:41.7073 87609/T8 Ser/Server.h:902 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2022-02-19 10:14:41.7073 87609/Ta Ser/Server.h:902 ]: [ServerThr.2] Freed 0 spare client objects
+[ N 2022-02-19 10:14:41.7073 87609/Tg Ser/Server.h:902 ]: [ServerThr.5] Freed 0 spare client objects
+[ N 2022-02-19 10:14:41.7073 87609/Tf Ser/Server.h:902 ]: [ServerThr.4] Freed 0 spare client objects
+[ N 2022-02-19 10:14:41.7073 87609/Tc Ser/Server.h:558 ]: [ServerThr.3] Shutdown finished
+[ N 2022-02-19 10:14:41.7073 87609/T8 Ser/Server.h:558 ]: [ServerThr.1] Shutdown finished
+[ N 2022-02-19 10:14:41.7074 87609/Tg Ser/Server.h:558 ]: [ServerThr.5] Shutdown finished
+[ N 2022-02-19 10:14:41.7074 87609/Ta Ser/Server.h:558 ]: [ServerThr.2] Shutdown finished
+[ N 2022-02-19 10:14:41.7074 87609/Tf Ser/Server.h:558 ]: [ServerThr.4] Shutdown finished
+[ N 2022-02-19 10:14:41.7074 87609/Tk Ser/Server.h:902 ]: [ServerThr.7] Freed 0 spare client objects
+[ N 2022-02-19 10:14:41.7074 87609/Ti Ser/Server.h:902 ]: [ServerThr.6] Freed 0 spare client objects
+[ N 2022-02-19 10:14:41.7074 87609/Tk Ser/Server.h:558 ]: [ServerThr.7] Shutdown finished
+[ N 2022-02-19 10:14:41.7074 87609/Ti Ser/Server.h:558 ]: [ServerThr.6] Shutdown finished
+[ N 2022-02-19 10:14:41.7074 87609/Tm Ser/Server.h:902 ]: [ServerThr.8] Freed 0 spare client objects
+[ N 2022-02-19 10:14:41.7074 87609/Tm Ser/Server.h:558 ]: [ServerThr.8] Shutdown finished
+[ N 2022-02-19 10:14:41.7075 87609/Tp Ser/Server.h:902 ]: [ApiServer] Freed 0 spare client objects
+[ N 2022-02-19 10:14:41.7076 87609/Tp Ser/Server.h:558 ]: [ApiServer] Shutdown finished
+[ N 2022-02-19 10:14:41.7077 87609/T1 age/Cor/CoreMain.cpp:1147 ]: Checking whether to disconnect long-running connections for process 87722, application /home/arthur/Projects/snowflake/public (development)
+[ N 2022-02-19 10:14:42.6503 88052/T1 age/Wat/WatchdogMain.cpp:1373 ]: Starting Passenger watchdog...
+[ N 2022-02-19 10:14:42.6649 88055/T1 age/Cor/CoreMain.cpp:1340 ]: Starting Passenger core...
+[ N 2022-02-19 10:14:42.6650 88055/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2022-02-19 10:14:42.7141 88055/T1 age/Cor/CoreMain.cpp:1015 ]: Passenger core online, PID 88055
+[ N 2022-02-19 10:14:42.9493 87609/T1 age/Cor/CoreMain.cpp:1325 ]: Passenger core shutdown finished
+App 88166 output: #<PhusionPassenger::Utils::TeeInput:0x00005630aad41e90 @len=0, @socket=#<PhusionPassenger::Utils::UnseekableSocket:0x00005630aad43f60 @socket=#<UNIXSocket:fd 9>, @simulate_eof=true>, @bytes_read=0, @tmp=#<StringIO:0x00005630aad41be8>>
+App 88166 output: #<PhusionPassenger::Utils::TeeInput:0x00005630aac8f790 @len=41, @socket=#<PhusionPassenger::Utils::UnseekableSocket:0x00005630aad43f60 @socket=#<UNIXSocket:fd 9>, @simulate_eof=false>, @bytes_read=0, @tmp=#<StringIO:0x00005630aac8f3d0>>
+[ N 2022-02-19 10:14:45.4570 88055/T5 age/Cor/SecurityUpdateChecker.h:519 ]: Security update check: no update found (next check in 24 hours)
+
+[ N 2022-02-19 10:15:20.8946 88055/T8 age/Cor/CoreMain.cpp:671 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2022-02-19 10:15:20.8946 88055/T1 age/Cor/CoreMain.cpp:1246 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2022-02-19 10:15:20.8947 88055/T1 age/Cor/CoreMain.cpp:1147 ]: Checking whether to disconnect long-running connections for process 88166, application /home/arthur/Projects/snowflake/public (development)
+[ N 2022-02-19 10:15:20.8948 88055/T8 Ser/Server.h:902 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2022-02-19 10:15:20.8948 88055/Tb Ser/Server.h:902 ]: [ServerThr.2] Freed 0 spare client objects
+[ N 2022-02-19 10:15:20.8948 88055/Tc Ser/Server.h:902 ]: [ServerThr.3] Freed 0 spare client objects
+[ N 2022-02-19 10:15:20.8948 88055/Te Ser/Server.h:902 ]: [ServerThr.4] Freed 0 spare client objects
+[ N 2022-02-19 10:15:20.8948 88055/Tg Ser/Server.h:902 ]: [ServerThr.5] Freed 0 spare client objects
+[ N 2022-02-19 10:15:20.8948 88055/Ti Ser/Server.h:902 ]: [ServerThr.6] Freed 0 spare client objects
+[ N 2022-02-19 10:15:20.8948 88055/T8 Ser/Server.h:558 ]: [ServerThr.1] Shutdown finished
+[ N 2022-02-19 10:15:20.8948 88055/Tb Ser/Server.h:558 ]: [ServerThr.2] Shutdown finished
+[ N 2022-02-19 10:15:20.8948 88055/Tc Ser/Server.h:558 ]: [ServerThr.3] Shutdown finished
+[ N 2022-02-19 10:15:20.8949 88055/Te Ser/Server.h:558 ]: [ServerThr.4] Shutdown finished
+[ N 2022-02-19 10:15:20.8949 88055/Tg Ser/Server.h:558 ]: [ServerThr.5] Shutdown finished
+[ N 2022-02-19 10:15:20.8949 88055/Ti Ser/Server.h:558 ]: [ServerThr.6] Shutdown finished
+[ N 2022-02-19 10:15:20.8949 88055/Tm Ser/Server.h:902 ]: [ServerThr.8] Freed 0 spare client objects
+[ N 2022-02-19 10:15:20.8949 88055/Tm Ser/Server.h:558 ]: [ServerThr.8] Shutdown finished
+[ N 2022-02-19 10:15:20.8950 88055/To Ser/Server.h:902 ]: [ApiServer] Freed 0 spare client objects
+[ N 2022-02-19 10:15:20.8950 88055/To Ser/Server.h:558 ]: [ApiServer] Shutdown finished
+[ N 2022-02-19 10:15:20.8950 88055/Tk Ser/Server.h:902 ]: [ServerThr.7] Freed 0 spare client objects
+[ N 2022-02-19 10:15:20.8950 88055/Tk Ser/Server.h:558 ]: [ServerThr.7] Shutdown finished
+[ N 2022-02-19 10:15:20.8951 88055/T1 age/Cor/CoreMain.cpp:1147 ]: Checking whether to disconnect long-running connections for process 88166, application /home/arthur/Projects/snowflake/public (development)
+[ N 2022-02-19 10:15:21.7626 88352/T1 age/Wat/WatchdogMain.cpp:1373 ]: Starting Passenger watchdog...
+[ N 2022-02-19 10:15:21.7761 88355/T1 age/Cor/CoreMain.cpp:1340 ]: Starting Passenger core...
+[ N 2022-02-19 10:15:21.7762 88355/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2022-02-19 10:15:21.8202 88355/T1 age/Cor/CoreMain.cpp:1015 ]: Passenger core online, PID 88355
+[ N 2022-02-19 10:15:22.0672 88055/T1 age/Cor/CoreMain.cpp:1325 ]: Passenger core shutdown finished
+App 88470 output: [ 2022-02-19 10:15:24.1072 88470/0x000055ac2a1d89a0(Worker 1) utils.rb ]: *** Exception TypeError in Rack application object (no implicit conversion of PhusionPassenger::Utils::TeeInput into String) (process 88470, thread 0x000055ac2a1d89a0(Worker 1)):
+[ W 2022-02-19 10:15:24.1073 88355/T8 age/Cor/Con/InternalUtils.cpp:96 ]: [Client 1-1] Sending 502 response: application did not send a complete response
+App 88470 output: 	from config.ru:4:in `+'
+App 88470 output: 	from config.ru:4:in `call'
+App 88470 output: 	from /home/arthur/.rbenv/versions/3.0.3/lib/ruby/gems/3.0.0/gems/passenger-6.0.12/src/ruby_supportlib/phusion_passenger/rack/thread_handler_extension.rb:107:in `process_request'
+App 88470 output: 	from /home/arthur/.rbenv/versions/3.0.3/lib/ruby/gems/3.0.0/gems/passenger-6.0.12/src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:157:in `accept_and_process_next_request'
+App 88470 output: 	from /home/arthur/.rbenv/versions/3.0.3/lib/ruby/gems/3.0.0/gems/passenger-6.0.12/src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:110:in `main_loop'
+App 88470 output: 	from /home/arthur/.rbenv/versions/3.0.3/lib/ruby/gems/3.0.0/gems/passenger-6.0.12/src/ruby_supportlib/phusion_passenger/request_handler.rb:419:in `block (3 levels) in start_threads'
+App 88470 output: 	from /home/arthur/.rbenv/versions/3.0.3/lib/ruby/gems/3.0.0/gems/passenger-6.0.12/src/ruby_supportlib/phusion_passenger/utils.rb:113:in `block in create_thread_and_abort_on_exception'
+[ N 2022-02-19 10:15:24.6345 88355/T5 age/Cor/SecurityUpdateChecker.h:519 ]: Security update check: no update found (next check in 24 hours)
+App 88470 output: [ 2022-02-19 10:15:24.7260 88470/0x000055ac2a1d89a0(Worker 1) utils.rb ]: *** Exception TypeError in Rack application object (no implicit conversion of PhusionPassenger::Utils::TeeInput into String) (process 88470, thread 0x000055ac2a1d89a0(Worker 1)):
+App 88470 output: 	from config.ru:4:in `+'
+App 88470 output: 	from config.ru:4:in `call'
+App 88470 output: 	from /home/arthur/.rbenv/versions/3.0.3/lib/ruby/gems/3.0.0/gems/passenger-6.0.12/src/ruby_supportlib/phusion_passenger/rack/thread_handler_extension.rb:107:in `process_request'
+App 88470 output: 	from /home/arthur/.rbenv/versions/3.0.3/lib/ruby/gems/3.0.0/gems/passenger-6.0.12/src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:149:in `accept_and_process_next_request'
+App 88470 output: 	from /home/arthur/.rbenv/versions/3.0.3/lib/ruby/gems/3.0.0/gems/passenger-6.0.12/src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:110:in `main_loop'
+App 88470 output: 	from /home/arthur/.rbenv/versions/3.0.3/lib/ruby/gems/3.0.0/gems/passenger-6.0.12/src/ruby_supportlib/phusion_passenger/request_handler.rb:419:in `block (3 levels) in start_threads'
+App 88470 output: 	from /home/arthur/.rbenv/versions/3.0.3/lib/ruby/gems/3.0.0/gems/passenger-6.0.12/src/ruby_supportlib/phusion_passenger/utils.rb:113:in `block in create_thread_and_abort_on_exception'
+App 88470 output: [ 2022-02-19 10:15:25.5529 88470/0x000055ac2a1d89a0(Worker 1) utils.rb ]: *** Exception TypeError in Rack application object (no implicit conversion of PhusionPassenger::Utils::TeeInput into String) (process 88470, thread 0x000055ac2a1d89a0(Worker 1)):
+App 88470 output: 	from config.ru:4:in `+'
+App 88470 output: 	from config.ru:4:in `call'
+App 88470 output: 	from /home/arthur/.rbenv/versions/3.0.3/lib/ruby/gems/3.0.0/gems/passenger-6.0.12/src/ruby_supportlib/phusion_passenger/rack/thread_handler_extension.rb:107:in `process_request'
+App 88470 output: 	from /home/arthur/.rbenv/versions/3.0.3/lib/ruby/gems/3.0.0/gems/passenger-6.0.12/src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:149:in `accept_and_process_next_request'
+App 88470 output: 	from /home/arthur/.rbenv/versions/3.0.3/lib/ruby/gems/3.0.0/gems/passenger-6.0.12/src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:110:in `main_loop'
+App 88470 output: 	from /home/arthur/.rbenv/versions/3.0.3/lib/ruby/gems/3.0.0/gems/passenger-6.0.12/src/ruby_supportlib/phusion_passenger/request_handler.rb:419:in `block (3 levels) in start_threads'
+App 88470 output: 	from /home/arthur/.rbenv/versions/3.0.3/lib/ruby/gems/3.0.0/gems/passenger-6.0.12/src/ruby_supportlib/phusion_passenger/utils.rb:113:in `block in create_thread_and_abort_on_exception'
+
+[ N 2022-02-19 10:16:36.7378 88355/T8 age/Cor/CoreMain.cpp:671 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2022-02-19 10:16:36.7379 88355/T1 age/Cor/CoreMain.cpp:1246 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2022-02-19 10:16:36.7380 88355/T1 age/Cor/CoreMain.cpp:1147 ]: Checking whether to disconnect long-running connections for process 88470, application /home/arthur/Projects/snowflake/public (development)
+[ N 2022-02-19 10:16:36.7384 88355/T8 Ser/Server.h:902 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2022-02-19 10:16:36.7384 88355/Tf Ser/Server.h:902 ]: [ServerThr.4] Freed 0 spare client objects
+[ N 2022-02-19 10:16:36.7384 88355/Tm Ser/Server.h:902 ]: [ServerThr.8] Freed 0 spare client objects
+[ N 2022-02-19 10:16:36.7384 88355/Tk Ser/Server.h:902 ]: [ServerThr.7] Freed 0 spare client objects
+[ N 2022-02-19 10:16:36.7385 88355/Ta Ser/Server.h:902 ]: [ServerThr.2] Freed 0 spare client objects
+[ N 2022-02-19 10:16:36.7385 88355/Tf Ser/Server.h:558 ]: [ServerThr.4] Shutdown finished
+[ N 2022-02-19 10:16:36.7385 88355/T8 Ser/Server.h:558 ]: [ServerThr.1] Shutdown finished
+[ N 2022-02-19 10:16:36.7385 88355/Tm Ser/Server.h:558 ]: [ServerThr.8] Shutdown finished
+[ N 2022-02-19 10:16:36.7385 88355/Tk Ser/Server.h:558 ]: [ServerThr.7] Shutdown finished
+[ N 2022-02-19 10:16:36.7386 88355/Ta Ser/Server.h:558 ]: [ServerThr.2] Shutdown finished
+[ N 2022-02-19 10:16:36.7386 88355/Ti Ser/Server.h:902 ]: [ServerThr.6] Freed 0 spare client objects
+[ N 2022-02-19 10:16:36.7387 88355/Ti Ser/Server.h:558 ]: [ServerThr.6] Shutdown finished
+[ N 2022-02-19 10:16:36.7387 88355/Th Ser/Server.h:902 ]: [ServerThr.5] Freed 0 spare client objects
+[ N 2022-02-19 10:16:36.7387 88355/Th Ser/Server.h:558 ]: [ServerThr.5] Shutdown finished
+[ N 2022-02-19 10:16:36.7388 88355/Tc Ser/Server.h:902 ]: [ServerThr.3] Freed 0 spare client objects
+[ N 2022-02-19 10:16:36.7389 88355/Tc Ser/Server.h:558 ]: [ServerThr.3] Shutdown finished
+[ N 2022-02-19 10:16:36.7390 88355/To Ser/Server.h:902 ]: [ApiServer] Freed 0 spare client objects
+[ N 2022-02-19 10:16:36.7391 88355/To Ser/Server.h:558 ]: [ApiServer] Shutdown finished
+[ N 2022-02-19 10:16:36.7396 88355/T1 age/Cor/CoreMain.cpp:1147 ]: Checking whether to disconnect long-running connections for process 88470, application /home/arthur/Projects/snowflake/public (development)
+[ N 2022-02-19 10:16:37.6038 89093/T1 age/Wat/WatchdogMain.cpp:1373 ]: Starting Passenger watchdog...
+[ N 2022-02-19 10:16:37.6194 89096/T1 age/Cor/CoreMain.cpp:1340 ]: Starting Passenger core...
+[ N 2022-02-19 10:16:37.6195 89096/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2022-02-19 10:16:37.6842 89096/T1 age/Cor/CoreMain.cpp:1015 ]: Passenger core online, PID 89096
+[ N 2022-02-19 10:16:38.0493 88355/T1 age/Cor/CoreMain.cpp:1325 ]: Passenger core shutdown finished
+[ N 2022-02-19 10:16:40.6104 89096/T5 age/Cor/SecurityUpdateChecker.h:519 ]: Security update check: no update found (next check in 24 hours)
+
+[ N 2022-02-19 10:16:55.3812 89096/T8 age/Cor/CoreMain.cpp:671 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2022-02-19 10:16:55.3813 89096/T1 age/Cor/CoreMain.cpp:1246 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2022-02-19 10:16:55.3813 89096/T1 age/Cor/CoreMain.cpp:1147 ]: Checking whether to disconnect long-running connections for process 89211, application /home/arthur/Projects/snowflake/public (development)
+[ N 2022-02-19 10:16:55.3816 89096/Ta Ser/Server.h:902 ]: [ServerThr.2] Freed 0 spare client objects
+[ N 2022-02-19 10:16:55.3816 89096/Te Ser/Server.h:902 ]: [ServerThr.4] Freed 0 spare client objects
+[ N 2022-02-19 10:16:55.3816 89096/Tc Ser/Server.h:902 ]: [ServerThr.3] Freed 0 spare client objects
+[ N 2022-02-19 10:16:55.3817 89096/Ta Ser/Server.h:558 ]: [ServerThr.2] Shutdown finished
+[ N 2022-02-19 10:16:55.3817 89096/T8 Ser/Server.h:902 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2022-02-19 10:16:55.3817 89096/Te Ser/Server.h:558 ]: [ServerThr.4] Shutdown finished
+[ N 2022-02-19 10:16:55.3817 89096/Tc Ser/Server.h:558 ]: [ServerThr.3] Shutdown finished
+[ N 2022-02-19 10:16:55.3818 89096/T8 Ser/Server.h:558 ]: [ServerThr.1] Shutdown finished
+[ N 2022-02-19 10:16:55.3818 89096/Ti Ser/Server.h:902 ]: [ServerThr.6] Freed 0 spare client objects
+[ N 2022-02-19 10:16:55.3818 89096/Ti Ser/Server.h:558 ]: [ServerThr.6] Shutdown finished
+[ N 2022-02-19 10:16:55.3818 89096/Tm Ser/Server.h:902 ]: [ServerThr.8] Freed 0 spare client objects
+[ N 2022-02-19 10:16:55.3818 89096/Tm Ser/Server.h:558 ]: [ServerThr.8] Shutdown finished
+[ N 2022-02-19 10:16:55.3819 89096/Tk Ser/Server.h:902 ]: [ServerThr.7] Freed 0 spare client objects
+[ N 2022-02-19 10:16:55.3819 89096/Tk Ser/Server.h:558 ]: [ServerThr.7] Shutdown finished
+[ N 2022-02-19 10:16:55.3819 89096/Tg Ser/Server.h:902 ]: [ServerThr.5] Freed 0 spare client objects
+[ N 2022-02-19 10:16:55.3820 89096/Tg Ser/Server.h:558 ]: [ServerThr.5] Shutdown finished
+[ N 2022-02-19 10:16:55.3820 89096/To Ser/Server.h:902 ]: [ApiServer] Freed 0 spare client objects
+[ N 2022-02-19 10:16:55.3820 89096/To Ser/Server.h:558 ]: [ApiServer] Shutdown finished
+[ N 2022-02-19 10:16:55.3824 89096/T1 age/Cor/CoreMain.cpp:1147 ]: Checking whether to disconnect long-running connections for process 89211, application /home/arthur/Projects/snowflake/public (development)
+[ N 2022-02-19 10:16:56.6846 89096/T1 age/Cor/CoreMain.cpp:1325 ]: Passenger core shutdown finished
+[ N 2022-02-19 10:16:57.2290 89342/T1 age/Wat/WatchdogMain.cpp:1373 ]: Starting Passenger watchdog...
+[ N 2022-02-19 10:16:57.2446 89345/T1 age/Cor/CoreMain.cpp:1340 ]: Starting Passenger core...
+[ N 2022-02-19 10:16:57.2447 89345/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2022-02-19 10:16:57.3004 89345/T1 age/Cor/CoreMain.cpp:1015 ]: Passenger core online, PID 89345
+App 89450 output: "BODY: "
+App 89450 output: "BODY: {\n    \"hello\":\"World\",\n    \"Foo\":\"bar\"\n}\n"
+[ N 2022-02-19 10:17:00.4425 89345/T5 age/Cor/SecurityUpdateChecker.h:519 ]: Security update check: no update found (next check in 24 hours)
+
+[ N 2022-02-19 10:18:41.7092 89345/T8 age/Cor/CoreMain.cpp:671 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2022-02-19 10:18:41.7093 89345/T1 age/Cor/CoreMain.cpp:1246 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2022-02-19 10:18:41.7093 89345/T1 age/Cor/CoreMain.cpp:1147 ]: Checking whether to disconnect long-running connections for process 89450, application /home/arthur/Projects/snowflake/public (development)
+[ N 2022-02-19 10:18:41.7095 89345/Ta Ser/Server.h:902 ]: [ServerThr.2] Freed 0 spare client objects
+[ N 2022-02-19 10:18:41.7095 89345/Tf Ser/Server.h:902 ]: [ServerThr.4] Freed 0 spare client objects
+[ N 2022-02-19 10:18:41.7095 89345/Tg Ser/Server.h:902 ]: [ServerThr.5] Freed 0 spare client objects
+[ N 2022-02-19 10:18:41.7095 89345/Td Ser/Server.h:902 ]: [ServerThr.3] Freed 0 spare client objects
+[ N 2022-02-19 10:18:41.7095 89345/Tf Ser/Server.h:558 ]: [ServerThr.4] Shutdown finished
+[ N 2022-02-19 10:18:41.7095 89345/Ta Ser/Server.h:558 ]: [ServerThr.2] Shutdown finished
+[ N 2022-02-19 10:18:41.7095 89345/T8 Ser/Server.h:902 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2022-02-19 10:18:41.7095 89345/Ti Ser/Server.h:902 ]: [ServerThr.6] Freed 0 spare client objects
+[ N 2022-02-19 10:18:41.7095 89345/Tg Ser/Server.h:558 ]: [ServerThr.5] Shutdown finished
+[ N 2022-02-19 10:18:41.7095 89345/Td Ser/Server.h:558 ]: [ServerThr.3] Shutdown finished
+[ N 2022-02-19 10:18:41.7096 89345/Ti Ser/Server.h:558 ]: [ServerThr.6] Shutdown finished
+[ N 2022-02-19 10:18:41.7096 89345/T8 Ser/Server.h:558 ]: [ServerThr.1] Shutdown finished
+[ N 2022-02-19 10:18:41.7096 89345/Tk Ser/Server.h:902 ]: [ServerThr.7] Freed 0 spare client objects
+[ N 2022-02-19 10:18:41.7096 89345/Tk Ser/Server.h:558 ]: [ServerThr.7] Shutdown finished
+[ N 2022-02-19 10:18:41.7097 89345/To Ser/Server.h:902 ]: [ApiServer] Freed 0 spare client objects
+[ N 2022-02-19 10:18:41.7097 89345/To Ser/Server.h:558 ]: [ApiServer] Shutdown finished
+[ N 2022-02-19 10:18:41.7097 89345/Tm Ser/Server.h:902 ]: [ServerThr.8] Freed 0 spare client objects
+[ N 2022-02-19 10:18:41.7097 89345/Tm Ser/Server.h:558 ]: [ServerThr.8] Shutdown finished
+[ N 2022-02-19 10:18:41.7098 89345/T1 age/Cor/CoreMain.cpp:1147 ]: Checking whether to disconnect long-running connections for process 89450, application /home/arthur/Projects/snowflake/public (development)
+[ N 2022-02-19 10:18:42.9790 89345/T1 age/Cor/CoreMain.cpp:1325 ]: Passenger core shutdown finished
+[ N 2022-02-20 21:33:09.5440 145357/T1 age/Wat/WatchdogMain.cpp:1373 ]: Starting Passenger watchdog...
+[ N 2022-02-20 21:33:09.5601 145360/T1 age/Cor/CoreMain.cpp:1340 ]: Starting Passenger core...
+[ N 2022-02-20 21:33:09.5602 145360/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2022-02-20 21:33:09.6299 145360/T1 age/Cor/CoreMain.cpp:1015 ]: Passenger core online, PID 145360
+App 145469 output: "HEAD"
+App 145469 output: "http://0.0.0.0/"
+App 145469 output: "/"
+App 145469 output: "BODY: "
+[ N 2022-02-20 21:33:12.5863 145360/T5 age/Cor/SecurityUpdateChecker.h:519 ]: Security update check: no update found (next check in 24 hours)
+App 145469 output: "GET"
+App 145469 output: "http://localhost:3000/"
+App 145469 output: "/"
+App 145469 output: "BODY: {\n    \"hello\":\"World\",\n    \"Foo\":\"bar\"\n}\n"
+App 145469 output: "GET"
+App 145469 output: "http://localhost:3000/test"
+App 145469 output: "/test"
+App 145469 output: "BODY: {\n    \"hello\":\"World\",\n    \"Foo\":\"bar\"\n}\n"
+App 145469 output: "POST"
+App 145469 output: "http://localhost:3000/test?id=234234"
+App 145469 output: "/test"
+App 145469 output: "BODY: {\n    \"hello\":\"World\",\n    \"Foo\":\"bar\"\n}\n"
+
+[ N 2022-02-20 21:37:41.3497 145360/T8 age/Cor/CoreMain.cpp:671 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2022-02-20 21:37:41.3498 145360/T1 age/Cor/CoreMain.cpp:1246 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2022-02-20 21:37:41.3498 145360/T1 age/Cor/CoreMain.cpp:1147 ]: Checking whether to disconnect long-running connections for process 145469, application /home/arthur/Projects/snowflake/public (development)
+[ N 2022-02-20 21:37:41.3499 145360/Ta Ser/Server.h:902 ]: [ServerThr.2] Freed 0 spare client objects
+[ N 2022-02-20 21:37:41.3499 145360/T8 Ser/Server.h:902 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2022-02-20 21:37:41.3499 145360/Te Ser/Server.h:902 ]: [ServerThr.4] Freed 0 spare client objects
+[ N 2022-02-20 21:37:41.3499 145360/Td Ser/Server.h:902 ]: [ServerThr.3] Freed 0 spare client objects
+[ N 2022-02-20 21:37:41.3499 145360/Ti Ser/Server.h:902 ]: [ServerThr.6] Freed 0 spare client objects
+[ N 2022-02-20 21:37:41.3499 145360/Ta Ser/Server.h:558 ]: [ServerThr.2] Shutdown finished
+[ N 2022-02-20 21:37:41.3500 145360/T8 Ser/Server.h:558 ]: [ServerThr.1] Shutdown finished
+[ N 2022-02-20 21:37:41.3500 145360/Te Ser/Server.h:558 ]: [ServerThr.4] Shutdown finished
+[ N 2022-02-20 21:37:41.3500 145360/Td Ser/Server.h:558 ]: [ServerThr.3] Shutdown finished
+[ N 2022-02-20 21:37:41.3500 145360/Ti Ser/Server.h:558 ]: [ServerThr.6] Shutdown finished
+[ N 2022-02-20 21:37:41.3500 145360/Tg Ser/Server.h:902 ]: [ServerThr.5] Freed 0 spare client objects
+[ N 2022-02-20 21:37:41.3500 145360/Tm Ser/Server.h:902 ]: [ServerThr.8] Freed 0 spare client objects
+[ N 2022-02-20 21:37:41.3500 145360/Tg Ser/Server.h:558 ]: [ServerThr.5] Shutdown finished
+[ N 2022-02-20 21:37:41.3500 145360/Tm Ser/Server.h:558 ]: [ServerThr.8] Shutdown finished
+[ N 2022-02-20 21:37:41.3500 145360/Tk Ser/Server.h:902 ]: [ServerThr.7] Freed 0 spare client objects
+[ N 2022-02-20 21:37:41.3500 145360/To Ser/Server.h:902 ]: [ApiServer] Freed 0 spare client objects
+[ N 2022-02-20 21:37:41.3501 145360/Tk Ser/Server.h:558 ]: [ServerThr.7] Shutdown finished
+[ N 2022-02-20 21:37:41.3501 145360/To Ser/Server.h:558 ]: [ApiServer] Shutdown finished
+[ N 2022-02-20 21:37:41.3502 145360/T1 age/Cor/CoreMain.cpp:1147 ]: Checking whether to disconnect long-running connections for process 145469, application /home/arthur/Projects/snowflake/public (development)
+[ N 2022-02-20 21:37:42.6151 145360/T1 age/Cor/CoreMain.cpp:1325 ]: Passenger core shutdown finished
+[ N 2022-02-20 21:37:42.7968 146387/T1 age/Wat/WatchdogMain.cpp:1373 ]: Starting Passenger watchdog...
+[ N 2022-02-20 21:37:42.8138 146390/T1 age/Cor/CoreMain.cpp:1340 ]: Starting Passenger core...
+[ N 2022-02-20 21:37:42.8140 146390/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2022-02-20 21:37:42.8595 146390/T1 age/Cor/CoreMain.cpp:1015 ]: Passenger core online, PID 146390
+App 146491 output: "HEAD"
+App 146491 output: "http://0.0.0.0/"
+App 146491 output: "/"
+[ N 2022-02-20 21:37:45.7948 146390/T5 age/Cor/SecurityUpdateChecker.h:519 ]: Security update check: no update found (next check in 24 hours)
+App 146491 output: "POST"
+App 146491 output: "http://localhost:3000/test?id=234234"
+App 146491 output: "/test"
+
+[ N 2022-02-20 21:38:13.6479 146390/T8 age/Cor/CoreMain.cpp:671 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2022-02-20 21:38:13.6480 146390/T1 age/Cor/CoreMain.cpp:1246 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2022-02-20 21:38:13.6482 146390/T1 age/Cor/CoreMain.cpp:1147 ]: Checking whether to disconnect long-running connections for process 146491, application /home/arthur/Projects/snowflake/public (development)
+[ N 2022-02-20 21:38:13.6485 146390/T8 Ser/Server.h:902 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2022-02-20 21:38:13.6485 146390/Td Ser/Server.h:902 ]: [ServerThr.3] Freed 0 spare client objects
+[ N 2022-02-20 21:38:13.6486 146390/Ta Ser/Server.h:902 ]: [ServerThr.2] Freed 0 spare client objects
+[ N 2022-02-20 21:38:13.6486 146390/Tk Ser/Server.h:902 ]: [ServerThr.7] Freed 0 spare client objects
+[ N 2022-02-20 21:38:13.6486 146390/Ti Ser/Server.h:902 ]: [ServerThr.6] Freed 0 spare client objects
+[ N 2022-02-20 21:38:13.6486 146390/Tm Ser/Server.h:902 ]: [ServerThr.8] Freed 0 spare client objects
+[ N 2022-02-20 21:38:13.6486 146390/T8 Ser/Server.h:558 ]: [ServerThr.1] Shutdown finished
+[ N 2022-02-20 21:38:13.6486 146390/Td Ser/Server.h:558 ]: [ServerThr.3] Shutdown finished
+[ N 2022-02-20 21:38:13.6486 146390/Tg Ser/Server.h:902 ]: [ServerThr.5] Freed 0 spare client objects
+[ N 2022-02-20 21:38:13.6487 146390/Ta Ser/Server.h:558 ]: [ServerThr.2] Shutdown finished
+[ N 2022-02-20 21:38:13.6487 146390/Tk Ser/Server.h:558 ]: [ServerThr.7] Shutdown finished
+[ N 2022-02-20 21:38:13.6487 146390/Ti Ser/Server.h:558 ]: [ServerThr.6] Shutdown finished
+[ N 2022-02-20 21:38:13.6488 146390/Tm Ser/Server.h:558 ]: [ServerThr.8] Shutdown finished
+[ N 2022-02-20 21:38:13.6488 146390/Tg Ser/Server.h:558 ]: [ServerThr.5] Shutdown finished
+[ N 2022-02-20 21:38:13.6489 146390/Tf Ser/Server.h:902 ]: [ServerThr.4] Freed 0 spare client objects
+[ N 2022-02-20 21:38:13.6490 146390/Tf Ser/Server.h:558 ]: [ServerThr.4] Shutdown finished
+[ N 2022-02-20 21:38:13.6492 146390/To Ser/Server.h:902 ]: [ApiServer] Freed 0 spare client objects
+[ N 2022-02-20 21:38:13.6492 146390/To Ser/Server.h:558 ]: [ApiServer] Shutdown finished
+[ N 2022-02-20 21:38:13.6498 146390/T1 age/Cor/CoreMain.cpp:1147 ]: Checking whether to disconnect long-running connections for process 146491, application /home/arthur/Projects/snowflake/public (development)
+[ N 2022-02-20 21:38:14.6129 146658/T1 age/Wat/WatchdogMain.cpp:1373 ]: Starting Passenger watchdog...
+[ N 2022-02-20 21:38:14.6263 146661/T1 age/Cor/CoreMain.cpp:1340 ]: Starting Passenger core...
+[ N 2022-02-20 21:38:14.6264 146661/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2022-02-20 21:38:14.6853 146661/T1 age/Cor/CoreMain.cpp:1015 ]: Passenger core online, PID 146661
+[ N 2022-02-20 21:38:14.7662 146390/T1 age/Cor/CoreMain.cpp:1325 ]: Passenger core shutdown finished
+App 146768 output: "HEAD"
+App 146768 output: "http://0.0.0.0/"
+App 146768 output: "/"
+App 146768 output: ""
+App 146768 output: "BODY: "
+[ N 2022-02-20 21:38:17.5439 146661/T5 age/Cor/SecurityUpdateChecker.h:519 ]: Security update check: no update found (next check in 24 hours)
+App 146768 output: "POST"
+App 146768 output: "http://localhost:3000/test?id=234234"
+App 146768 output: "/test"
+App 146768 output: "id=234234"
+App 146768 output: "BODY: {\n    \"hello\":\"World\",\n    \"Foo\":\"bar\"\n}\n"
+App 146768 output: "POST"
+App 146768 output: "http://localhost:3000/test?id=234234"
+App 146768 output: "/test"
+App 146768 output: "id=234234"
+App 146768 output: "BODY: {\n    \"hello\":\"World\",\n    \"Foo\":\"bar\"\n}\n"
+App 146768 output: "POST"
+App 146768 output: "http://localhost:3000/test?id=234234&secret=ABC123"
+App 146768 output: "/test"
+App 146768 output: "id=234234&secret=ABC123"
+App 146768 output: "BODY: {\n    \"hello\":\"World\",\n    \"Foo\":\"bar\"\n}\n"
+
+[ N 2022-02-21 07:38:29.6794 146661/T8 age/Cor/CoreMain.cpp:671 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2022-02-21 07:38:29.6795 146661/T1 age/Cor/CoreMain.cpp:1246 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2022-02-21 07:38:29.6796 146661/T1 age/Cor/CoreMain.cpp:1147 ]: Checking whether to disconnect long-running connections for process 146768, application /home/arthur/Projects/snowflake/public (development)
+[ N 2022-02-21 07:38:29.6800 146661/Ta Ser/Server.h:902 ]: [ServerThr.2] Freed 0 spare client objects
+[ N 2022-02-21 07:38:29.6800 146661/T8 Ser/Server.h:902 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2022-02-21 07:38:29.6800 146661/Ti Ser/Server.h:902 ]: [ServerThr.6] Freed 0 spare client objects
+[ N 2022-02-21 07:38:29.6801 146661/Tc Ser/Server.h:902 ]: [ServerThr.3] Freed 0 spare client objects
+[ N 2022-02-21 07:38:29.6801 146661/Ta Ser/Server.h:558 ]: [ServerThr.2] Shutdown finished
+[ N 2022-02-21 07:38:29.6802 146661/T8 Ser/Server.h:558 ]: [ServerThr.1] Shutdown finished
+[ N 2022-02-21 07:38:29.6802 146661/Tc Ser/Server.h:558 ]: [ServerThr.3] Shutdown finished
+[ N 2022-02-21 07:38:29.6802 146661/Ti Ser/Server.h:558 ]: [ServerThr.6] Shutdown finished
+[ N 2022-02-21 07:38:29.6800 146661/Tg Ser/Server.h:902 ]: [ServerThr.5] Freed 0 spare client objects
+[ N 2022-02-21 07:38:29.6803 146661/Tg Ser/Server.h:558 ]: [ServerThr.5] Shutdown finished
+[ N 2022-02-21 07:38:29.6803 146661/Tk Ser/Server.h:902 ]: [ServerThr.7] Freed 0 spare client objects
+[ N 2022-02-21 07:38:29.6803 146661/Tm Ser/Server.h:902 ]: [ServerThr.8] Freed 0 spare client objects
+[ N 2022-02-21 07:38:29.6803 146661/Tk Ser/Server.h:558 ]: [ServerThr.7] Shutdown finished
+[ N 2022-02-21 07:38:29.6803 146661/Tm Ser/Server.h:558 ]: [ServerThr.8] Shutdown finished
+[ N 2022-02-21 07:38:29.6804 146661/Te Ser/Server.h:902 ]: [ServerThr.4] Freed 0 spare client objects
+[ N 2022-02-21 07:38:29.6804 146661/Te Ser/Server.h:558 ]: [ServerThr.4] Shutdown finished
+[ N 2022-02-21 07:38:29.6806 146661/To Ser/Server.h:902 ]: [ApiServer] Freed 0 spare client objects
+[ N 2022-02-21 07:38:29.6807 146661/To Ser/Server.h:558 ]: [ApiServer] Shutdown finished
+[ N 2022-02-21 07:38:29.6813 146661/T1 age/Cor/CoreMain.cpp:1147 ]: Checking whether to disconnect long-running connections for process 146768, application /home/arthur/Projects/snowflake/public (development)
+[ N 2022-02-21 07:38:30.8436 146661/T1 age/Cor/CoreMain.cpp:1325 ]: Passenger core shutdown finished
+[ N 2022-02-21 07:38:32.2376 147466/T1 age/Wat/WatchdogMain.cpp:1373 ]: Starting Passenger watchdog...
+[ N 2022-02-21 07:38:32.2515 147469/T1 age/Cor/CoreMain.cpp:1340 ]: Starting Passenger core...
+[ N 2022-02-21 07:38:32.2517 147469/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2022-02-21 07:38:32.2992 147469/T1 age/Cor/CoreMain.cpp:1015 ]: Passenger core online, PID 147469
+App 147572 output: "HEAD"
+App 147572 output: "http://0.0.0.0/"
+App 147572 output: "/"
+App 147572 output: ""
+App 147572 output: {}
+App 147572 output: "BODY: "
+[ N 2022-02-21 07:38:35.0244 147469/T5 age/Cor/SecurityUpdateChecker.h:519 ]: Security update check: no update found (next check in 24 hours)
+App 147572 output: "POST"
+App 147572 output: "http://localhost:3000/test?id=234234&secret=ABC123"
+App 147572 output: "/test"
+App 147572 output: "id=234234&secret=ABC123"
+App 147572 output: {"id"=>"234234", "secret"=>"ABC123"}
+App 147572 output: "BODY: {\n    \"hello\":\"World\",\n    \"Foo\":\"bar\"\n}\n"
+
+[ N 2022-02-21 07:41:36.9562 147469/T8 age/Cor/CoreMain.cpp:671 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2022-02-21 07:41:36.9562 147469/T1 age/Cor/CoreMain.cpp:1246 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2022-02-21 07:41:36.9562 147469/T1 age/Cor/CoreMain.cpp:1147 ]: Checking whether to disconnect long-running connections for process 147572, application /home/arthur/Projects/snowflake/public (development)
+[ N 2022-02-21 07:41:36.9564 147469/T8 Ser/Server.h:902 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2022-02-21 07:41:36.9564 147469/Ti Ser/Server.h:902 ]: [ServerThr.6] Freed 0 spare client objects
+[ N 2022-02-21 07:41:36.9564 147469/Tk Ser/Server.h:902 ]: [ServerThr.7] Freed 0 spare client objects
+[ N 2022-02-21 07:41:36.9564 147469/Ti Ser/Server.h:558 ]: [ServerThr.6] Shutdown finished
+[ N 2022-02-21 07:41:36.9564 147469/T8 Ser/Server.h:558 ]: [ServerThr.1] Shutdown finished
+[ N 2022-02-21 07:41:36.9564 147469/Tk Ser/Server.h:558 ]: [ServerThr.7] Shutdown finished
+[ N 2022-02-21 07:41:36.9564 147469/Tc Ser/Server.h:902 ]: [ServerThr.3] Freed 0 spare client objects
+[ N 2022-02-21 07:41:36.9565 147469/Ta Ser/Server.h:902 ]: [ServerThr.2] Freed 0 spare client objects
+[ N 2022-02-21 07:41:36.9565 147469/Tc Ser/Server.h:558 ]: [ServerThr.3] Shutdown finished
+[ N 2022-02-21 07:41:36.9565 147469/Ta Ser/Server.h:558 ]: [ServerThr.2] Shutdown finished
+[ N 2022-02-21 07:41:36.9565 147469/Te Ser/Server.h:902 ]: [ServerThr.4] Freed 0 spare client objects
+[ N 2022-02-21 07:41:36.9565 147469/Te Ser/Server.h:558 ]: [ServerThr.4] Shutdown finished
+[ N 2022-02-21 07:41:36.9565 147469/Tg Ser/Server.h:902 ]: [ServerThr.5] Freed 0 spare client objects
+[ N 2022-02-21 07:41:36.9565 147469/Tg Ser/Server.h:558 ]: [ServerThr.5] Shutdown finished
+[ N 2022-02-21 07:41:36.9565 147469/Tm Ser/Server.h:902 ]: [ServerThr.8] Freed 0 spare client objects
+[ N 2022-02-21 07:41:36.9566 147469/Tm Ser/Server.h:558 ]: [ServerThr.8] Shutdown finished
+[ N 2022-02-21 07:41:36.9566 147469/To Ser/Server.h:902 ]: [ApiServer] Freed 0 spare client objects
+[ N 2022-02-21 07:41:36.9567 147469/To Ser/Server.h:558 ]: [ApiServer] Shutdown finished
+[ N 2022-02-21 07:41:36.9571 147469/T1 age/Cor/CoreMain.cpp:1147 ]: Checking whether to disconnect long-running connections for process 147572, application /home/arthur/Projects/snowflake/public (development)
+[ N 2022-02-21 07:41:38.2422 147469/T1 age/Cor/CoreMain.cpp:1325 ]: Passenger core shutdown finished
+[ N 2022-02-21 07:44:12.2170 148768/T1 age/Wat/WatchdogMain.cpp:1373 ]: Starting Passenger watchdog...
+[ N 2022-02-21 07:44:12.2305 148771/T1 age/Cor/CoreMain.cpp:1340 ]: Starting Passenger core...
+[ N 2022-02-21 07:44:12.2306 148771/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2022-02-21 07:44:12.2724 148771/T1 age/Cor/CoreMain.cpp:1015 ]: Passenger core online, PID 148771
+App 148881 output: "HEAD"
+App 148881 output: "http://0.0.0.0/"
+App 148881 output: "/"
+App 148881 output: {}
+App 148881 output: "BODY: "
+[ N 2022-02-21 07:44:15.0191 148771/T5 age/Cor/SecurityUpdateChecker.h:519 ]: Security update check: no update found (next check in 24 hours)
+App 148881 output: "POST"
+App 148881 output: "http://localhost:3000/test?id=234234&secret=ABC123"
+App 148881 output: "/test"
+App 148881 output: {"id"=>"234234", "secret"=>"ABC123"}
+App 148881 output: "BODY: {\n    \"hello\":\"World\",\n    \"Foo\":\"bar\"\n}\n"
+
+[ N 2022-02-21 07:44:54.5332 148771/T8 age/Cor/CoreMain.cpp:671 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2022-02-21 07:44:54.5332 148771/T1 age/Cor/CoreMain.cpp:1246 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2022-02-21 07:44:54.5333 148771/T1 age/Cor/CoreMain.cpp:1147 ]: Checking whether to disconnect long-running connections for process 148881, application /home/arthur/Projects/snowflake/public (development)
+[ N 2022-02-21 07:44:54.5334 148771/T8 Ser/Server.h:902 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2022-02-21 07:44:54.5334 148771/Ta Ser/Server.h:902 ]: [ServerThr.2] Freed 0 spare client objects
+[ N 2022-02-21 07:44:54.5334 148771/Tc Ser/Server.h:902 ]: [ServerThr.3] Freed 0 spare client objects
+[ N 2022-02-21 07:44:54.5334 148771/Te Ser/Server.h:902 ]: [ServerThr.4] Freed 0 spare client objects
+[ N 2022-02-21 07:44:54.5334 148771/Ti Ser/Server.h:902 ]: [ServerThr.6] Freed 0 spare client objects
+[ N 2022-02-21 07:44:54.5334 148771/T8 Ser/Server.h:558 ]: [ServerThr.1] Shutdown finished
+[ N 2022-02-21 07:44:54.5334 148771/Ti Ser/Server.h:558 ]: [ServerThr.6] Shutdown finished
+[ N 2022-02-21 07:44:54.5334 148771/Ta Ser/Server.h:558 ]: [ServerThr.2] Shutdown finished
+[ N 2022-02-21 07:44:54.5334 148771/Tc Ser/Server.h:558 ]: [ServerThr.3] Shutdown finished
+[ N 2022-02-21 07:44:54.5334 148771/Te Ser/Server.h:558 ]: [ServerThr.4] Shutdown finished
+[ N 2022-02-21 07:44:54.5335 148771/Tk Ser/Server.h:902 ]: [ServerThr.7] Freed 0 spare client objects
+[ N 2022-02-21 07:44:54.5335 148771/Tk Ser/Server.h:558 ]: [ServerThr.7] Shutdown finished
+[ N 2022-02-21 07:44:54.5335 148771/To Ser/Server.h:902 ]: [ApiServer] Freed 0 spare client objects
+[ N 2022-02-21 07:44:54.5335 148771/To Ser/Server.h:558 ]: [ApiServer] Shutdown finished
+[ N 2022-02-21 07:44:54.5335 148771/Tg Ser/Server.h:902 ]: [ServerThr.5] Freed 0 spare client objects
+[ N 2022-02-21 07:44:54.5335 148771/Tg Ser/Server.h:558 ]: [ServerThr.5] Shutdown finished
+[ N 2022-02-21 07:44:54.5335 148771/Tm Ser/Server.h:902 ]: [ServerThr.8] Freed 0 spare client objects
+[ N 2022-02-21 07:44:54.5335 148771/Tm Ser/Server.h:558 ]: [ServerThr.8] Shutdown finished
+[ N 2022-02-21 07:44:54.5336 148771/T1 age/Cor/CoreMain.cpp:1147 ]: Checking whether to disconnect long-running connections for process 148881, application /home/arthur/Projects/snowflake/public (development)
+[ N 2022-02-21 07:44:55.6410 149088/T1 age/Wat/WatchdogMain.cpp:1373 ]: Starting Passenger watchdog...
+[ N 2022-02-21 07:44:55.6558 149091/T1 age/Cor/CoreMain.cpp:1340 ]: Starting Passenger core...
+[ N 2022-02-21 07:44:55.6559 149091/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2022-02-21 07:44:55.6621 148771/T1 age/Cor/CoreMain.cpp:1325 ]: Passenger core shutdown finished
+[ N 2022-02-21 07:44:55.6909 149091/T1 age/Cor/CoreMain.cpp:1015 ]: Passenger core online, PID 149091
+App 149198 output: "HEAD"
+App 149198 output: "http://0.0.0.0/"
+App 149198 output: "/"
+App 149198 output: {}
+App 149198 output: "BODY: "
+[ N 2022-02-21 07:44:58.6420 149091/T5 age/Cor/SecurityUpdateChecker.h:519 ]: Security update check: no update found (next check in 24 hours)
+App 149198 output: "POST"
+App 149198 output: "http://localhost:3000/test?id=234234&secret=ABC123"
+App 149198 output: "/test"
+App 149198 output: {"id"=>"234234", "secret"=>"ABC123"}
+App 149198 output: "BODY: {\n    \"hello\":\"World\",\n    \"Foo\":\"bar\"\n}\n"
+App 149198 output: {"hello"=>"World", "Foo"=>"bar"}
+
+[ N 2022-02-21 07:57:53.8555 149091/T8 age/Cor/CoreMain.cpp:671 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2022-02-21 07:57:53.8555 149091/T1 age/Cor/CoreMain.cpp:1246 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2022-02-21 07:57:53.8556 149091/T1 age/Cor/CoreMain.cpp:1147 ]: Checking whether to disconnect long-running connections for process 149198, application /home/arthur/Projects/snowflake/public (development)
+[ N 2022-02-21 07:57:53.8558 149091/Td Ser/Server.h:902 ]: [ServerThr.3] Freed 0 spare client objects
+[ N 2022-02-21 07:57:53.8558 149091/Tf Ser/Server.h:902 ]: [ServerThr.4] Freed 0 spare client objects
+[ N 2022-02-21 07:57:53.8558 149091/Tm Ser/Server.h:902 ]: [ServerThr.8] Freed 0 spare client objects
+[ N 2022-02-21 07:57:53.8558 149091/Td Ser/Server.h:558 ]: [ServerThr.3] Shutdown finished
+[ N 2022-02-21 07:57:53.8558 149091/Tf Ser/Server.h:558 ]: [ServerThr.4] Shutdown finished
+[ N 2022-02-21 07:57:53.8559 149091/Tm Ser/Server.h:558 ]: [ServerThr.8] Shutdown finished
+[ N 2022-02-21 07:57:53.8559 149091/Tb Ser/Server.h:902 ]: [ServerThr.2] Freed 0 spare client objects
+[ N 2022-02-21 07:57:53.8559 149091/Tj Ser/Server.h:902 ]: [ServerThr.6] Freed 0 spare client objects
+[ N 2022-02-21 07:57:53.8559 149091/Tb Ser/Server.h:558 ]: [ServerThr.2] Shutdown finished
+[ N 2022-02-21 07:57:53.8559 149091/Tj Ser/Server.h:558 ]: [ServerThr.6] Shutdown finished
+[ N 2022-02-21 07:57:53.8560 149091/T8 Ser/Server.h:902 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2022-02-21 07:57:53.8560 149091/T8 Ser/Server.h:558 ]: [ServerThr.1] Shutdown finished
+[ N 2022-02-21 07:57:53.8560 149091/To Ser/Server.h:902 ]: [ApiServer] Freed 0 spare client objects
+[ N 2022-02-21 07:57:53.8560 149091/To Ser/Server.h:558 ]: [ApiServer] Shutdown finished
+[ N 2022-02-21 07:57:53.8561 149091/Tk Ser/Server.h:902 ]: [ServerThr.7] Freed 0 spare client objects
+[ N 2022-02-21 07:57:53.8561 149091/Tk Ser/Server.h:558 ]: [ServerThr.7] Shutdown finished
+[ N 2022-02-21 07:57:53.8561 149091/Th Ser/Server.h:902 ]: [ServerThr.5] Freed 0 spare client objects
+[ N 2022-02-21 07:57:53.8561 149091/Th Ser/Server.h:558 ]: [ServerThr.5] Shutdown finished
+[ N 2022-02-21 07:57:53.8562 149091/T1 age/Cor/CoreMain.cpp:1147 ]: Checking whether to disconnect long-running connections for process 149198, application /home/arthur/Projects/snowflake/public (development)
+[ N 2022-02-21 07:57:54.7558 150023/T1 age/Wat/WatchdogMain.cpp:1373 ]: Starting Passenger watchdog...
+[ N 2022-02-21 07:57:54.7717 150026/T1 age/Cor/CoreMain.cpp:1340 ]: Starting Passenger core...
+[ N 2022-02-21 07:57:54.7718 150026/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2022-02-21 07:57:54.8145 150026/T1 age/Cor/CoreMain.cpp:1015 ]: Passenger core online, PID 150026
+[ N 2022-02-21 07:57:54.9409 149091/T1 age/Cor/CoreMain.cpp:1325 ]: Passenger core shutdown finished
+App 150139 output: "HEAD"
+App 150139 output: "http://0.0.0.0/"
+App 150139 output: "/"
+App 150139 output: nil
+App 150139 output: {}
+App 150139 output: "BODY: "
+[ N 2022-02-21 07:57:57.9186 150026/T5 age/Cor/SecurityUpdateChecker.h:519 ]: Security update check: no update found (next check in 24 hours)
+
+[ N 2022-02-21 11:31:29.2748 150026/T8 age/Cor/CoreMain.cpp:671 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2022-02-21 11:31:29.2749 150026/T1 age/Cor/CoreMain.cpp:1246 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2022-02-21 11:31:29.2749 150026/T1 age/Cor/CoreMain.cpp:1147 ]: Checking whether to disconnect long-running connections for process 150139, application /home/arthur/Projects/snowflake/public (development)
+[ N 2022-02-21 11:31:29.2751 150026/T8 Ser/Server.h:902 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2022-02-21 11:31:29.2751 150026/Te Ser/Server.h:902 ]: [ServerThr.4] Freed 0 spare client objects
+[ N 2022-02-21 11:31:29.2751 150026/Ta Ser/Server.h:902 ]: [ServerThr.2] Freed 0 spare client objects
+[ N 2022-02-21 11:31:29.2751 150026/Tc Ser/Server.h:902 ]: [ServerThr.3] Freed 0 spare client objects
+[ N 2022-02-21 11:31:29.2751 150026/Ti Ser/Server.h:902 ]: [ServerThr.6] Freed 0 spare client objects
+[ N 2022-02-21 11:31:29.2752 150026/T8 Ser/Server.h:558 ]: [ServerThr.1] Shutdown finished
+[ N 2022-02-21 11:31:29.2752 150026/Te Ser/Server.h:558 ]: [ServerThr.4] Shutdown finished
+[ N 2022-02-21 11:31:29.2752 150026/Ta Ser/Server.h:558 ]: [ServerThr.2] Shutdown finished
+[ N 2022-02-21 11:31:29.2752 150026/Tc Ser/Server.h:558 ]: [ServerThr.3] Shutdown finished
+[ N 2022-02-21 11:31:29.2752 150026/Ti Ser/Server.h:558 ]: [ServerThr.6] Shutdown finished
+[ N 2022-02-21 11:31:29.2752 150026/Tm Ser/Server.h:902 ]: [ServerThr.8] Freed 0 spare client objects
+[ N 2022-02-21 11:31:29.2753 150026/Tm Ser/Server.h:558 ]: [ServerThr.8] Shutdown finished
+[ N 2022-02-21 11:31:29.2753 150026/Tk Ser/Server.h:902 ]: [ServerThr.7] Freed 0 spare client objects
+[ N 2022-02-21 11:31:29.2753 150026/Tg Ser/Server.h:902 ]: [ServerThr.5] Freed 0 spare client objects
+[ N 2022-02-21 11:31:29.2753 150026/Tk Ser/Server.h:558 ]: [ServerThr.7] Shutdown finished
+[ N 2022-02-21 11:31:29.2753 150026/Tg Ser/Server.h:558 ]: [ServerThr.5] Shutdown finished
+[ N 2022-02-21 11:31:29.2754 150026/To Ser/Server.h:902 ]: [ApiServer] Freed 0 spare client objects
+[ N 2022-02-21 11:31:29.2754 150026/To Ser/Server.h:558 ]: [ApiServer] Shutdown finished
+[ N 2022-02-21 11:31:29.2757 150026/T1 age/Cor/CoreMain.cpp:1147 ]: Checking whether to disconnect long-running connections for process 150139, application /home/arthur/Projects/snowflake/public (development)
+[ N 2022-02-21 11:31:30.4539 150026/T1 age/Cor/CoreMain.cpp:1325 ]: Passenger core shutdown finished

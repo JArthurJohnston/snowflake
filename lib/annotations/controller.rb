@@ -1,30 +1,46 @@
-module Controller
-  # needs to be extended into a class
-  @@annotation = nil
-  @@current_path = nil
+require_relative '../requests/request_handler'
+require_relative '../requests/request_handler_factory'
 
-  def method_added(method_name)
-    super
-    p method_name.to_s + ' Added'
-    if @@annotation
-      puts 'annotated ', method_name, ' with ', @@annotation.name
-      @@annotation = nil
+module Snowflake
+  module Controller
+    CONTROLLER_ANNOTATION_PROC = proc do |method_name|
+      p "Added #{method_name}"
+      handler = RequestHandlerFactory.instance
+        .action(method_name)
+        .build
+      Snowflake.request_handlers.add(handler)
+      Controller.remove_annotation_handler
     end
 
-    puts method_name
-  end
-
-  module Actions
-    def controller(options); end
-
-    def get(_options)
-      puts 'GETTING'
+    def self.init_annotation_handler
+      Object.define_singleton_method(:method_added, CONTROLLER_ANNOTATION_PROC)
     end
 
-    def post(options); end
+    def self.remove_annotation_handler
+      Object.singleton_class.remove_method(:method_added)
+    end
 
-    def put(options); end
-
-    def delete(options); end
+    def self.basic_endpoint_setup(method, path)
+      Snowflake::Controller.init_annotation_handler
+      Snowflake::RequestHandlerFactory.instance
+        .method(method)
+        .path(path)
+    end
   end
+end
+
+def get(path)
+  return Snowflake::Controller.basic_endpoint_setup(:GET, path)
+end
+
+def post(path)
+  return Snowflake::Controller.basic_endpoint_setup(:POST, path)
+end
+
+def put(path)
+  return Snowflake::Controller.basic_endpoint_setup(:PUT, path)
+end
+
+def delete(path)
+  return Snowflake::Controller.basic_endpoint_setup(:DELETE, path)
 end
